@@ -1,12 +1,22 @@
-## 🧩 Código Principal (`main.c`) ```c #include <stdio.h>#include <stdlib.h>#include <string.h>#include <dirent.h>#include <ctype.h>#include <time.h>#define MAX_KEYWORDS 100 #define MAX_STRING_SIZE 256 #define MAX_DOCUMENT_SIZE 4096 typedef struct Document {
-	char id[MAX_STRING_SIZE];
-	char keywords[MAX_KEYWORDS][MAX_STRING_SIZE];
-	int num_keywords;
-	char content[MAX_DOCUMENT_SIZE];
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <dirent.h>  // Para leitura de diretório (Linux/macOS - POSIX)
+#include <ctype.h> // Para manipulação de caracteres (tolower)
+#include <time.h>  // Para medir o tempo de busca
+#define MAX_KEYWORDS 100 
+#define MAX_STRING_SIZE 256 
+#define MAX_DOCUMENT_SIZE 4096 
+// Estrutura para representar um documento
+typedef struct Document {
+char id[MAX_STRING_SIZE];
+char keywords[MAX_KEYWORDS][MAX_STRING_SIZE];
+int num_keywords;
+char content[MAX_DOCUMENT_SIZE];
 }
 
 Document;
-
+// Estrutura para um nó da árvore
 typedef struct Node {
 	Document data;
 	struct Node* left;
