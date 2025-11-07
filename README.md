@@ -1,4 +1,4 @@
-# 🧩  Buscador de Documentos Aleatórios em C  
+# 🧩 Mini Buscador de Documentos em C  
 
 ![C](https://img.shields.io/badge/Language-C-blue?logo=c)
 ![Status](https://img.shields.io/badge/status-concluído-success)
@@ -9,7 +9,7 @@
 
 ## 🧠 Sobre o Projeto  
 
-O **Buscador de Documentos Aleatórios** é um programa em **C** desenvolvido para criar milhares de arquivos de texto (`.txt`) com conteúdo aleatório.  
+O **Mini Buscador de Documentos** é um programa em **C** desenvolvido para criar milhares de arquivos de texto (`.txt`) com conteúdo aleatório.  
 Ele foi criado com o objetivo de **simular grandes volumes de dados** e **testar o desempenho** de aplicações que lidam com leitura e indexação de arquivos.  
 
 ---
@@ -75,4 +75,3 @@ universidade linguagem cpu analise ...
 📚 Criação de datasets artificiais <br>
 ⚙️ Análise de desempenho e otimização de I/O <br>
 
-❌️ testes de erros
