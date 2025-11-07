@@ -73,5 +73,5 @@ universidade linguagem cpu analise ...
 🧩 Testes de indexadores e motores de busca <br>
 🧠 Simulações de processamento e leitura de arquivos <br>
 📚 Criação de datasets artificiais <br>
-⚙️ Análise de desempenho e otimização de I/O <br>
+⚙️ Análise de desempenho e otimização de I/O <br> 
 
